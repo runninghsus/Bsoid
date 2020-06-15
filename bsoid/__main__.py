@@ -17,14 +17,14 @@ if __name__ == "__main__":
     from sklearn.ensemble import RandomForestClassifier
     from sklearn.preprocessing._data import StandardScaler
 
-    import bsoid_app
-    import bsoid_app.utils.statistics
-    from bsoid_app.classify import bsoid_extract, bsoid_predict
-    from bsoid_app.utils import likelihoodprocessing
-    from bsoid_app.utils.likelihoodprocessing import adp_filt, get_filenames, boxcar_center
-    from bsoid_app.utils.statistics import feat_dist
-    from bsoid_app.utils import statistics
-    from bsoid_app.utils.videoprocessing import *
+    import bsoid.bsoid_app
+    import bsoid.bsoid_app.utils.statistics
+    from bsoid.bsoid_app.classify import bsoid_extract, bsoid_predict
+    from bsoid.bsoid_app.utils import likelihoodprocessing
+    from bsoid.bsoid_app.utils.likelihoodprocessing import adp_filt, get_filenames, boxcar_center
+    from bsoid.bsoid_app.utils.statistics import feat_dist
+    from bsoid.bsoid_app.utils import statistics
+    from bsoid.bsoid_app.utils.videoprocessing import *
 
 
     # Intro

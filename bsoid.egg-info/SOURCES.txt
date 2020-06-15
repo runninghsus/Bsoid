@@ -1,7 +1,0 @@
-README.md
-setup.py
-bsoid/bsoid.py
-bsoid.egg-info/PKG-INFO
-bsoid.egg-info/SOURCES.txt
-bsoid.egg-info/dependency_links.txt
-bsoid.egg-info/top_level.txt
